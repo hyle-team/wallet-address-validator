@@ -2,7 +2,7 @@ var cryptoUtils = require('./crypto/utils');
 var cnBase58 = require('./crypto/cnBase58');
 
 var DEFAULT_NETWORK_TYPE = 'prod';
-var addressRegTest = new RegExp('^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{97,150}$');
+var addressRegTest = new RegExp('^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{97,175}$');
 
 function validateNetwork(decoded, currency, networkType, addressType)
 {
