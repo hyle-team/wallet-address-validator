@@ -29,15 +29,16 @@
     "raiblocks",
     "javascript",
     "browser",
-    "nodejs"
+    "nodejs",
+    "zano"
   ],
   "version": "0.2.4",
   "author": "Tomek Kolasa <tomek@kolasa.me>",
-  "homepage": "https://github.com/ognus/wallet-address-validator",
+  "homepage": "https://github.com/hyle-team/wallet-address-validator",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ognus/wallet-address-validator.git"
+    "url": "https://github.com/hyle-team/wallet-address-validator.git"
   },
   "main": "src/wallet_address_validator",
   "engines": {
