@@ -2,6 +2,7 @@ var XRPValidator = require('./ripple_validator');
 var ETHValidator = require('./ethereum_validator');
 var BTCValidator = require('./bitcoin_validator');
 var XMRValidator = require('./monero_validator');
+var ZANOValidator = require('./zano_validator');
 var NANOValidator = require('./nano_validator');
 
 // defines P2PKH and P2SH address types for standard (prod) and testnet networks
@@ -201,6 +202,12 @@ var CURRENCIES = [{
     addressTypes: {prod: ['18'], testnet: ['53']},
     iAddressTypes: {prod: ['19'], testnet: ['54']},
     validator: XMRValidator
+},{
+    name: 'zano',
+    symbol: 'zano',
+    //addressTypes: {prod: ['197'], testnet: ['197']},
+    //iAddressTypes: {prod: [''], testnet: ['']},
+    validator: ZANOValidator
 },{
     name: 'nano',
     symbol: 'nano',
